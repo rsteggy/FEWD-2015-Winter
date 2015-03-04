@@ -1,8 +1,8 @@
 h1 {
-	font-family: 'Roboto', sans-serif; 
+	font-family: 'Roboto Condensed', sans-serif;
 	color: #2b3f4c;
 	font-size: 30px;
-
+	font-weight: 300;
 }
 
 h2 {
@@ -10,6 +10,7 @@ h2 {
 	color: #fff;
 	font-size: 70px;
 	font-weight: 300;
+	line-height: 0px;
 }
 
 h3 {font-family: 'Roboto Condensed', sans-serif;
@@ -18,7 +19,81 @@ h3 {font-family: 'Roboto Condensed', sans-serif;
 	font-weight: 300;
 }
 
+h4 {font-family: 'Roboto Condensed', sans-serif;
+	color: #e77e04;
+	font-size: 26px;
+	font-weight: 300;}
+
+h5 {font-family: 'Roboto Condensed', sans-serif;
+	color: #e77e04;
+	font-size: 42px;
+	font-weight: 300;}
+
 p {
 	font-family: 'Roboto', sans-serif;
 }
 
+.head{
+	text-align: center;
+} 
+
+
+.intro { 
+	background-color: #e77e04;
+	background-image: url('images/intro_bg.jpg');
+	height: 500px;
+}
+
+.introtext{
+	font-family: 'Roboto', sans-serif;
+	color: #fff;
+	font-size: 20px;
+	line-height: 150%;
+}
+
+.introphone {
+	position: absolute;
+	margin-top: -55px;
+	padding-left: 700px;
+	overflow: visible;
+}
+
+.button{
+	background: #fff;
+	font-family: 'Roboto', sans-serif;
+	color: #e77e04;
+	font-size: 20px;
+	border-radius: 5px;
+	width: 200px;
+	height: 50px;
+	text-align: center;
+	padding-top: 12px;
+}
+
+.features{
+	text-align: center; 
+}
+
+strong.h1 {
+	font-weight: 400;
+}
+
+	@media screen and (max-width: 499px) {
+		/* target screens smaller then 500px */
+	}
+
+	@media screen and (min-width: 500px) {
+		/* target screens larger then 500px */
+	}
+
+	@media screen and (min-width: 500px) and (max-width: 739px) {
+		/* target screens from 500px to 740px */
+	}
+
+	@media screen and (max-width: 739px) {
+		/* target screens smaller then 740px */
+	}
+
+	@media screen and (min-width: 740px) {
+		/* target screens larger then 740px */
+	}
