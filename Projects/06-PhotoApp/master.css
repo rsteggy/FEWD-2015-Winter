@@ -1,3 +1,8 @@
+body{
+	margin: 0; 
+	padding: 0;
+}
+
 h1 {
 	font-family: 'Roboto Condensed', sans-serif;
 	color: #2b3f4c;
@@ -17,45 +22,53 @@ h3 {font-family: 'Roboto Condensed', sans-serif;
 	color: #2b3f4c;
 	font-size: 36px;
 	font-weight: 300;
+	line-height: 0px;
 }
 
-h4 {font-family: 'Roboto Condensed', sans-serif;
+h4 {
+	font-family: 'Roboto Condensed', sans-serif;
 	color: #e77e04;
 	font-size: 26px;
-	font-weight: 300;}
+	font-weight: 300;
+	line-height: 0px;
+}
 
-h5 {font-family: 'Roboto Condensed', sans-serif;
+h5 {
+	font-family: 'Roboto Condensed', sans-serif;
 	color: #e77e04;
 	font-size: 42px;
-	font-weight: 300;}
+	font-weight: 300;
+	line-height: 0px;
+}
 
 p {
 	font-family: 'Roboto', sans-serif;
 }
 
+img {
+  max-width: 100%;
+}
+
 .head{
-	text-align: center;
+	height: 100px;
 } 
 
 
 .intro { 
 	background-color: #e77e04;
 	background-image: url('images/intro_bg.jpg');
-	height: 500px;
+	background-position: center;
+	height: 450px;
+	position: relative;
 }
 
 .introtext{
 	font-family: 'Roboto', sans-serif;
 	color: #fff;
 	font-size: 20px;
-	line-height: 150%;
-}
-
-.introphone {
-	position: absolute;
-	margin-top: -55px;
-	padding-left: 700px;
-	overflow: visible;
+	line-height: 200%;
+	margin: 5% 0;
+	padding-left: 5%;
 }
 
 .button{
@@ -64,36 +77,54 @@ p {
 	color: #e77e04;
 	font-size: 20px;
 	border-radius: 5px;
-	width: 200px;
+	width: 250px;
 	height: 50px;
 	text-align: center;
-	padding-top: 12px;
+	padding-top: 1.5%;
+	margin: 0 auto;
 }
 
 .features{
 	text-align: center; 
+	margin: .5% 0;
+}
+
+.exphoto{
+	margin: 1% 0;
+	padding: 0 2%;
+}
+
+.capture{
+	background-color: #eee;
+}
+
+.extext{
+	margin: 1% 0;
+	padding: 0 2%;
 }
 
 strong.h1 {
 	font-weight: 400;
 }
 
-	@media screen and (max-width: 499px) {
-		/* target screens smaller then 500px */
-	}
+@media screen and (max-width: 499px) {
 
-	@media screen and (min-width: 500px) {
-		/* target screens larger then 500px */
+	.head {
+		text-align: center;
 	}
+}
 
-	@media screen and (min-width: 500px) and (max-width: 739px) {
-		/* target screens from 500px to 740px */
-	}
+@media screen and (min-width: 500px) {
 
-	@media screen and (max-width: 739px) {
-		/* target screens smaller then 740px */
-	}
 
-	@media screen and (min-width: 740px) {
+
+@media screen and (min-width: 500px) and (max-width: 739px) {
+}
+
+@media screen and (max-width: 739px) {
+
+}
+
+@media screen and (min-width: 740px) {
 		/* target screens larger then 740px */
-	}
+}
